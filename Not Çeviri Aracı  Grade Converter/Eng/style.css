@@ -39,4 +39,10 @@ input[type=button] {
   cursor: pointer;
   margin: 5px 50px;
 }
+#content #chapter a{
+  text-decoration: none;
+  background-color: #444;
+  color: #fff;
+}
+
 

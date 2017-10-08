@@ -38,6 +38,11 @@
 #ENG img{
 	width: 150px;
 }
+#content #chapter a{
+  text-decoration: none;
+  background-color: #444;
+  color: #fff;
+}
 
 
 

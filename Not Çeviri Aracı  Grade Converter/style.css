@@ -1,0 +1,43 @@
+/* Ramazan Taplamacı 2017,10,08 Grade Converter(Not Çeviri Aracı ) */
+*{
+	margin: 0;
+	background-color: #222;
+}
+#content{
+	margin: auto;
+	width: 300px;
+	height: 200px;
+}
+#content #chapter{
+	background-color: #333;
+	text-align: center;
+	color: #fff;
+	font-family: Helvetica;
+	padding: 10px;
+}
+#content #text{
+	background-color: #444;
+	text-align: center;
+	color: #fff;
+	font-family: Helvetica;
+	padding: 5px;
+}
+#TR{
+	background-color: #444;
+	float: left;
+	width: 150px;
+}
+#ENG{
+	background-color: #444;
+	float: left;
+	width: 150px;
+}
+#TR img{
+	width: 150px;
+}
+#ENG img{
+	width: 150px;
+}
+
+
+

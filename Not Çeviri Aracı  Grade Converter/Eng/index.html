@@ -1,0 +1,56 @@
+<!--Ramazan Taplamacı 2017,10,08 Grade Converter (Not Çeviri Aracı) --> 
+<!DOCTYPE html>
+<html>
+<head>
+	<title>RTaplamaci Grade Converter</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script type="text/javascript">
+		function hesapla(){
+			grd=document.getElementById("inpt").value;
+
+			var grade= parseInt(grd);
+			if (grade>100) {
+				rslt.value=("Please enter a number less than 100!");
+			}
+			else if (grade>=90) {
+				rslt.value=("Your grade AA, Congratulations");
+			}else if (grade>=85) {
+				rslt.value=("Your grade BA, Congratulations");
+			}
+			else if (grade>=80) {
+				rslt.value=("Your grade BB, Congratulations");
+			}
+			else if (grade>=70) {
+				rslt.value=("Your grade CB, Congratulations");
+			}
+			else if (grade>=60) {
+				rslt.value=("Your grade CC, Congratulations");
+			}
+			else if (grade>=55) {
+				rslt.value=("Your grade DC, Congratulations");
+			}
+			else if (grade>=50) {
+				rslt.value=("Your grade DD, Congratulations");
+			}
+			else if (grade>=40) {
+				rslt.value=("Your grade FD, Congratulations");
+			}
+			else if (grade<=39) {
+				rslt.value=("Your grade FF");
+			}
+			else{
+				rslt.value=("Eror")}
+		}
+	</script>
+</head>
+<body>
+	<div id="content">
+		<p id="chapter">Grade Converter</p>
+		<div id="Converter">
+		<input type="text" id="inpt" name="input" value="Please, Enter your score in numbers">
+		<input type="button"  id="Result" value="Convert" onclick="hesapla()" >
+		<input type="text" id="rslt"  value="Result">
+		<p id="chapter">By RTaplamaci</p>
+	</div>
+</body>
+</html>
